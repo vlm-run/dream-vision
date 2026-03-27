@@ -1,33 +1,8 @@
-# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
-build/
-.eggs/
-
-# Virtual envs
 .venv/
 venv/
-env/
-
-# Gradio
 .gradio/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Misc clutter
-FILES_CREATED.txt
-GETTING_STARTED.md
-IMPLEMENTATION_CHECKLIST.md
-IMPLEMENTATION_SUMMARY.md
-README_MULTIMODAL.md
-demo_multi_image.py
-demo_multimodal_completion.py
-demo_video_understanding.py
-app_multimodal_advanced.py
-
-# OS
 .DS_Store
 *.swp
