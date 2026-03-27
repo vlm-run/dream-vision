@@ -305,7 +305,7 @@ with gr.Blocks(css=css, theme=gr.themes.Soft()) as demo:
 
     with gr.Row():
         with gr.Column(scale=3):
-            chatbot_display = gr.Chatbot(label="Chat", bubble_full_width=False, height=600, type="messages")
+            chatbot_display = gr.Chatbot(label="Chat", height=600)
             with gr.Group():
                 with gr.Row():
                     user_input_textbox = gr.Textbox(label="Your Message", placeholder="Type your message here...", scale=4, show_label=False, container=False)
